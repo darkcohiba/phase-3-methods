@@ -15,5 +15,8 @@ def add(a, b)
 end
 
 def halve (a)
+    if a.class != integer
+        return nil
+    end
     return a/2
 end
